@@ -68,7 +68,7 @@ RSpec.configure do |config|
         long_blob_test LONGBLOB,
         long_text_test LONGTEXT,
         enum_test ENUM('val1', 'val2'),
-        set_test SET('val1', 'val2'),
+        set_test set('short_work','smoking_time') DEFAULT NULL,
         PRIMARY KEY (id)
       )
     ]
